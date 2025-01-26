@@ -606,7 +606,7 @@ main {
     /* TEXT DIV */
 
     .text-div {
-        margin: 0.63rem 1.44em 1.87rem 1.44em;
+        margin: 0.63rem 1.44em 0rem 1.44em;
         padding: 0;
         width: 23.75rem;;
     }
