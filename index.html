@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce Product Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4f299abd4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="overflow"></div>
+  <nav>
+    <div class="menu-logo-div">
+      <button class="hamburger" ><img src="images/icon-menu.svg" alt=""></button>
+      <img id="logo" src="images/logo.svg" alt="logo">
+    </div>
+    <div id="nav-tabs">
+      <img class="close-btn"  src="images/icon-close.svg" alt="">
+      <p>Collections</p>  
+      <p>Men</p> 
+      <p>Women</p>  
+      <p>About</p>  
+      <p>Contact</p>  
+    </div>
+    <div id="nav-img">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <img id="avatar" src="images/image-avatar.png" alt="">
+    </div>
+    <div class="cart-items">
+      <h5>Cart</h5>
+      <div class="filled-cart">
+        <img class="cart-thumbnail" src="images/image-product-1-thumbnail.jpg" alt="">
+        <div class="filled-cart-text">
+          <p>
+            Fall Limited Edition Sneakers
+          </p>
+          <div class="total-price">
+            <div class="total-price-div1">
+              <span class="cart-span1">$125.00 x</span>
+              <span class="cart-span2">1</span>
+            </div>
+            <div class="total-price-div2">
+              <span><i class="fa-solid fa-dollar-sign"></i></span>
+              <span id="price">125</span>
+            </div>
+          </div>
+        </div>
+
+        <img class="delete-img" src="images/icon-delete.svg" alt="">
+      </div>
+      <div>
+        <button class="cart-button">Checkout</button>
+      </div>
+      
+    </div>
+    <p class="cart-quantity"></p>
+
+    <div class="empty-cart">
+      <h5>Cart</h5>
+      <p class="empty-cart-p">Your cart is empty.</p>
+    </div>
+  </nav>
+
+  <main>
+    
+    <div class="sneakers-div">
+      <div class="product-div">
+        <img  class="open" src="images/image-product-1.jpg" alt="">
+      </div>
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/image-product-1-thumbnail.jpg" alt="">
+        <img class="thumbnail" src="images/image-product-2-thumbnail.jpg" alt="">
+        <img class="thumbnail" src="images/image-product-3-thumbnail.jpg" alt="">
+        <img class="thumbnail" src="images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+      <div class="arrow-div">
+        <i class="fa-solid fa-chevron-left"></i>
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+
+    <!-- LIGHTBOX -->
+
+    <div class="sneakers-div2" >
+      <i class="fa-solid fa-xmark"></i>
+      <div class="product-div2">
+        <img src="images/image-product-1.jpg" alt="">
+      </div>
+      <div class="thumbnail-div2">
+        <img class="thumbnail2" src="images/image-product-1-thumbnail.jpg" alt="">
+        <img class="thumbnail2" src="images/image-product-2-thumbnail.jpg" alt="">
+        <img class="thumbnail2" src="images/image-product-3-thumbnail.jpg" alt="">
+        <img class="thumbnail2" src="images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+      <div class="arrow-div2">
+        <i class="fa-solid fa-chevron-left"></i>
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+
+    <div class="text-div">
+      <h1>SNEAKER COMPANY</h1>
+
+      <h2>Fall Limited Edition Sneakers</h2>
+
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+      <div class="price-div">
+        <div class="span-div">
+          <span class="span1">$125.00</span>
+          <span class="span2">50%</span>
+        </div>
+        <span class="span3">$250.00</span>
+      </div>
+
+      <div class="addToCart-div">
+        <div class="quantity">
+          <button class="btn minus-btn disabled" type="button"><img class="minus" src="images/icon-minus.svg" alt=""></button>
+          <input type="text" id="quantity" value="0">
+          <button class="btn plus-btn" type="button"><img class="add" src="images/icon-plus.svg" alt=""></button>
+        </div>
+      
+        
+        <div class="cart-div">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>Add to cart</span>
+        </div>
+      </div>
+      
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Tomi-Stem">Tomi Ampitan(Stem)</a>.
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
