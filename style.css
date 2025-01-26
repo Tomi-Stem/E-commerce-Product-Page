@@ -455,6 +455,7 @@ main {
 
     body {
         text-align: left;
+        height: 52.19rem;
     }
 
     .overflow {
@@ -613,16 +614,17 @@ main {
 
     .text-div h1 {
         font-size: 13px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .text-div h2 {
-        font-size: 25px;
+        font-size: 28px;
         margin-bottom: 10px;
     }
 
     .text-div p {
         font-size: 14px;
+        margin-bottom: 30px;
         padding-right: 10px;
         line-height: 20px;
     }
@@ -630,7 +632,7 @@ main {
     .price-div {
         display: flex;
         width: 23.75rem;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-weight: 700;
     }
 
@@ -645,7 +647,9 @@ main {
 
     .addToCart-div {
         flex-direction: column;
+        justify-content: space-evenly;
         width: 23.75rem;
+        height: 140px;
     }
 
     .quantity {
@@ -670,7 +674,7 @@ main {
     }
 
     .attribution { 
-        margin-top: 50px;
+        margin-top: 120px;
     }
     
 }
