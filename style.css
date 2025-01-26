@@ -455,12 +455,12 @@ main {
 
     body {
         text-align: left;
-        height: 50rem;
+        height: 52.19rem;
     }
 
     .overflow {
         width: 26.56rem;
-        height: 50rem;
+        height: 52.19rem;
     }
 
     nav {
@@ -493,7 +493,7 @@ main {
         display: none;
         position: absolute;
         width: 250px;
-        height: 50rem;
+        height: 52.19rem;
         top: 0;
         left: 0;
         background-color: white;
