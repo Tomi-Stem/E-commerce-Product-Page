@@ -459,7 +459,7 @@ main {
 
     .overflow {
         width: 26.56rem;
-        height: 500px;
+        height: 44.56rem;
     }
 
     nav {
@@ -492,7 +492,7 @@ main {
         display: none;
         position: absolute;
         width: 250px;
-        height: 500px;
+        height: 44.56rem;
         top: 0;
         left: 0;
         background-color: white;
@@ -670,7 +670,7 @@ main {
     }
 
     .attribution { 
-        margin-top: 1px;
+        margin-top: 30px;
     }
     
 }
